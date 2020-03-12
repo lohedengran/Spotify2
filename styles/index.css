@@ -1,0 +1,289 @@
+@charset "UTF-8";
+.screen {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  background-color: #000000;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 1550px;
+  margin-left: 230px;
+  background-color: #000000;
+  opacity: 0.9;
+  margin-top: none;
+}
+
+.arrow {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.leta {
+  border-radius: 30px;
+  border: none;
+  height: 45px;
+  width: 260px;
+  text-align: center;
+}
+
+.button {
+  width: 138px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.navigation {
+  width: 230px;
+  height: 100vh;
+  position: sticky;
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  color: #b0b0b0;
+  font-family: "Roboto", sans-serif;
+}
+
+h5 {
+  color: #b0b0b0;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 130px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.img {
+  width: 24px;
+  height: 24px;
+}
+
+.home {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.alla {
+  display: flex;
+  align-items: flex-end;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 70px;
+  padding: 20px;
+  grid-gap: 20px;
+  height: 1500px;
+  background-color: #181818;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-element {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.podcasts {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: #cc6600;
+}
+
+.skapat {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #5097af;
+}
+
+.topplistor {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  background-color: #006666;
+}
+
+.nya {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  background-color: #5097af;
+}
+
+.upptäck {
+  grid-row: 2/3;
+  grid-column: 5/6;
+  background-color: #666699;
+}
+
+.pop {
+  grid-row: 2/3;
+  grid-column: 6/7;
+  background-color: #00cc99;
+}
+
+.hiphop {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-color: #cc9900;
+}
+
+.humör {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  background-color: #3366cc;
+}
+
+.amplify {
+  grid-row: 3/4;
+  grid-column: 3/4;
+  background-color: #585858;
+}
+
+.chill {
+  grid-row: 3/4;
+  grid-column: 4/5;
+  background-color: #608794;
+}
+
+.party {
+  grid-row: 3/4;
+  grid-column: 5/6;
+  background-color: #cc6699;
+}
+
+.årtionden {
+  grid-row: 3/4;
+  grid-column: 6/7;
+  background-color: #666699;
+}
+
+.indie {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  background-color: #330099;
+}
+
+.black {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  background-color: #cc9900;
+}
+
+.träning {
+  grid-row: 4/5;
+  grid-column: 3/4;
+  background-color: #ffcc66;
+}
+
+.electronic {
+  grid-row: 4/5;
+  grid-column: 4/5;
+  background-color: #66cccc;
+}
+
+.rb {
+  grid-row: 4/5;
+  grid-column: 5/6;
+  background-color: #990066;
+}
+
+.rock {
+  grid-row: 4/5;
+  grid-column: 6/7;
+  background-color: #680000;
+}
+
+.soul {
+  grid-row: 5/6;
+  grid-column: 1/2;
+  background-color: #cc6666;
+}
+
+.jazz {
+  grid-row: 5/6;
+  grid-column: 2/3;
+  background-color: #585858;
+}
+
+.country {
+  grid-row: 5/6;
+  grid-column: 3/4;
+  background-color: #009966;
+}
+
+.wellness {
+  grid-row: 5/6;
+  grid-column: 4/5;
+  background-color: #cc99cc;
+}
+
+.klassiskt {
+  grid-row: 5/6;
+  grid-column: 5/6;
+  background-color: #00ffcc;
+}
+
+.reggae {
+  grid-row: 5/6;
+  grid-column: 6/7;
+  background-color: #cccc99;
+}
+
+.punk {
+  grid-row: 6/7;
+  grid-column: 1/2;
+  background-color: #6699cc;
+}
+
+.metal {
+  grid-row: 6/7;
+  grid-column: 2/3;
+  background-color: #006666;
+}
+
+.funk {
+  grid-row: 6/7;
+  grid-column: 3/4;
+  background-color: #999999;
+}
+
+/*# sourceMappingURL=index.css.map */
